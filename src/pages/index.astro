@@ -1,11 +1,40 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+    <div
+        class="flex h-screen flex-row-reverse items-center justify-center gap-x-2 text-4xl"
+    >
+        <div
+            class="flex size-20 items-center justify-center rounded-full border-2 border-dashed bg-white p-4 opacity-60 shadow-2xl sm:bg-white sm:opacity-60 md:bg-white md:opacity-60 lg:bg-white lg:opacity-60 xl:bg-white xl:opacity-60 2xl:bg-yellow-400 2xl:opacity-100"
+        >
+            <span>2xl</span>
+        </div>
+        <div
+            class="flex size-20 items-center justify-center rounded-full border-2 border-dashed bg-white p-4 opacity-60 shadow-2xl sm:bg-white sm:opacity-60 md:bg-white md:opacity-60 lg:bg-white lg:opacity-60 xl:bg-yellow-400 xl:opacity-100 2xl:bg-white 2xl:opacity-60"
+        >
+            <span>xl</span>
+        </div>
+        <div
+            class="flex size-20 items-center justify-center rounded-full border-2 border-dashed bg-white p-4 opacity-60 shadow-2xl sm:bg-white sm:opacity-60 md:bg-white md:opacity-60 lg:bg-yellow-400 lg:opacity-100 xl:bg-white xl:opacity-60 2xl:bg-white 2xl:opacity-60"
+        >
+            <span>lg</span>
+        </div>
+        <div
+            class="flex size-20 items-center justify-center rounded-full border-2 border-dashed bg-white p-4 opacity-60 shadow-2xl sm:bg-white sm:opacity-60 md:bg-yellow-400 md:opacity-100 lg:bg-white lg:opacity-60 xl:bg-white xl:opacity-60 2xl:bg-white 2xl:opacity-60"
+        >
+            <span>md</span>
+        </div>
+        <div
+            class="flex size-20 items-center justify-center rounded-full border-2 border-dashed bg-white p-4 opacity-60 shadow-2xl sm:bg-yellow-400 sm:opacity-100 md:bg-white md:opacity-60 lg:bg-white lg:opacity-60 xl:bg-white xl:opacity-60 2xl:bg-white 2xl:opacity-60"
+        >
+            <span>sm</span>
+        </div>
+        <div
+            class="flex size-20 items-center justify-center rounded-full border-2 border-dashed bg-yellow-400 p-4 opacity-100 shadow-2xl sm:bg-white sm:opacity-60 md:bg-white md:opacity-60 lg:bg-white lg:opacity-60 xl:bg-white xl:opacity-60 2xl:bg-white 2xl:opacity-60"
+        >
+            <span>xs</span>
+        </div>
+    </div>
 </Layout>
